@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: white;
+  background: black;
+  font-family: "Inter";
+  font-style: normal;
+}
+
+.container {
+  position: absolute;
+  left: 260px;
+  width: 70%;
+  height: 100%;
+}
+
+#signup {
+  position: absolute;
+  width: 100%;
+  height: 144px;
+  top: 233px;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+}
+
+.credentials {
+  position: absolute;
+  width: 100%;
+  height: 6%;
+  top: 357px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 80%;
+}
+
+.errors {
+  position: absolute;
+  width: 416px;
+  height: 29px;
+  top: 671px;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.success {
+  position: absolute;
+  width: 416px;
+  height: 29px;
+  top: 715px;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+button {
+  position: absolute;
+  width: 226px;
+  height: 58px;
+  bottom: -5%;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  background: white;
+  color: #000000;
+  cursor: pointer;
+}
+
+input {
+  color: white;
+  list-style: none;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid white;
+  font-size: 24px;
+}
+
+::placeholder {
+  color: white;
+  font-weight: 300;
+  font-size: 24px;
+}
